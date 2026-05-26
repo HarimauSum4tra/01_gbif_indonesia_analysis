@@ -33,9 +33,9 @@ invisible(lapply(packages_needed, library, character.only = TRUE))
 # 3. Setup GBIF Credentials ----------------------------------
 # Important: Replace with your credentials or use .Renviron file
 # usethis::edit_r_environ() # Add: GBIF_USER, GBIF_PWD, GBIF_EMAIL
-Sys.setenv(GBIF_USER = "jarianpermana",
-           GBIF_PWD = "Kehutanan_13",  # Please Change This Password!
-           GBIF_EMAIL = "jarian.learning@gmail.com")
+Sys.setenv(GBIF_USER = "xxxxxxxxx", # use your username
+           GBIF_PWD = "Kehutanan_13",  # use your password
+           GBIF_EMAIL = "xxxxxxxxx@email.com") # use tour email
 
 # 4. Get Taxon Key -------------------------------------------
 cat("\n=== Searching Taxon Key For Pongo pygmaeus ===\n")
