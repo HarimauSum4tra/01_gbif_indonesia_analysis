@@ -22,6 +22,4 @@ Analisis data keanekaragaman hayati Indonesia dari Global Biodiversity Informati
 git clone https://github.com/jarianpermana/gbif-indonesia-analysis.git
 
 # Run in R
-Rscript scripts/01_download.R
-Rscript scripts/02_clean.R
-Rscript scripts/03_analysis.R
+Rscript scripts/00_main_scripts_pongopygmaeus
