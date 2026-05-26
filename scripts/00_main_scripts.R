@@ -26,9 +26,9 @@ invisible(lapply(packages_needed, library, character.only = TRUE))
 
 # 3. SETUP GBIF CREDENTIALS ----------------------------------
 # Ganti password Anda setelah ini!
-Sys.setenv(GBIF_USER = "jarianpermana",
-           GBIF_PWD = "Kehutanan_13",  # SEGERA GANTI PASSWORD INI!
-           GBIF_EMAIL = "jarian.learning@gmail.com")
+Sys.setenv(GBIF_USER = "xxxxxxxxx", # use your username
+           GBIF_PWD = "Kehutanan_13",  # use your password
+           GBIF_EMAIL = "xxxxxxxxx@email.com") # use tour email
 
 # 4. DAPATKAN TAXON KEY --------------------------------------
 cat("\n=== Mencari taxon key untuk Pongo pygmaeus ===\n")
